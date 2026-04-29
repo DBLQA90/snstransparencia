@@ -1,0 +1,26 @@
+Package: snstransparencia
+Title: Client for the Portuguese SNS Transparency API
+Version: 0.1.0
+Authors@R:
+    person("Diogo", "Queiroz Almeida", , "diogo.queiroz.almeida@gmail.com", role = c("aut", "cre", "cph"))
+Description: An R6 client for the Portuguese 'SNS Transparencia' open data
+    API. Provides helpers to discover and locally cache the dataset catalogue,
+    inspect metadata and fields, validate common query inputs, query small
+    filtered record sets, and download filtered exports from the public
+    'Opendatasoft' Explore API.
+License: MIT + file LICENSE
+URL: https://github.com/DBLQA90/snstransparencia,
+    https://transparencia.sns.gov.pt/
+BugReports: https://github.com/DBLQA90/snstransparencia/issues
+Imports:
+    httr2,
+    jsonlite,
+    R6,
+    rlang
+Suggests:
+    arrow,
+    testthat (>= 3.0.0)
+Depends: R (>= 4.1.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3

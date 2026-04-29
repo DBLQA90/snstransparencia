@@ -1,0 +1,11 @@
+^snstransparencia\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^cran-comments\.md$
+^\.github$
+^doc$
+^Meta$
+^\.codex$
+^PROJECT_STATE\.md$
+^.*\.Rcheck$
+^.*\.tar\.gz$
